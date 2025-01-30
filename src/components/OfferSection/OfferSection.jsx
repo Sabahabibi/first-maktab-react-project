@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Offer-section.css";
 
 export default function OfferSection() {
+  const [isBooked, setIsBooked] = useState(false);
+
+  const handleClick = () => {
+    setIsBooked(!isBooked);
+  };
+
   return (
     <div>
       <section className="final-offer">
@@ -17,7 +23,12 @@ export default function OfferSection() {
             <li>30% Discount for First-Time Customers</li>
             <li>100% Satisfaction Guarantee</li>
           </ul>
-          <button className="cta-button">Book Your Treatment Now</button>
+          <button
+            className={`cta-button ${isBooked ? "booked" : ""}`}
+            onClick={handleClick}
+          >
+            {isBooked ? "Treatment Booked!" : "Book Your Treatment Now"}
+          </button>
         </div>
       </section>
     </div>

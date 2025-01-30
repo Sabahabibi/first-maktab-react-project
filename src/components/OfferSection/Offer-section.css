@@ -8,6 +8,10 @@
   margin-top: 3rem;
 }
 
+.cta-button.booked {
+  background-color: #f44336;
+}
+
 .offer-content {
   flex: 1;
   text-align: left;

@@ -29,9 +29,10 @@ body {
   padding: 50px;
   display: flex;
   align-items: center;
-  padding: 50px;
+  justify-content: space-between;
   width: 100%;
 }
+
 .wfrs {
   display: flex;
   width: 100%;

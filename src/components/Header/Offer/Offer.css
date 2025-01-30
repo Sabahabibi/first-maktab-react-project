@@ -5,7 +5,6 @@
   padding: 2rem;
   border-radius: 1rem;
   gap: 10px;
-  width: 100%;
   align-items: center;
 }
 
@@ -40,11 +39,4 @@
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
-}
-
-.offer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
