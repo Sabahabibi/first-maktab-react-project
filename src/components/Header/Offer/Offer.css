@@ -1,0 +1,50 @@
+.OfferSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.OfferSection img {
+  width: 40%;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  gap: 20px;
+}
+
+.benefits h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.benefits ul {
+  padding: 0;
+  margin: 0;
+}
+
+.benefits ul li {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
